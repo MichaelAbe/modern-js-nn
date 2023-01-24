@@ -1,15 +1,19 @@
-let age = 36; 
-let year = 2023;
+console.log("Hello world")
 
+let email = "mario@gmail.com"
 
+console.log(email)
 
-console.log(age, year);
+let firstName = "Kek";
+let lastName = "Abe";
+let fullName = firstName + " " + lastName
 
-age = 50;
-console.log(age);
+console.log(fullName)
+console.log(fullName[0])
+console.log(fullName.length)
+console.log(fullName.toUpperCase())
+let result = fullName.toLowerCase()
+console.log(result)
 
-const points = (100);
-console.log(points);
-
-var score = 75; 
-console.log(score);
+let index = email.indexOf("@");
+console.log(index)

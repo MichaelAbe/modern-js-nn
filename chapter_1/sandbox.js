@@ -1,19 +1,9 @@
-console.log("Hello world")
+let email = "michael.k.abe@gmail.com";
 
-let email = "mario@gmail.com"
+// let result = email.lastIndexOf("m");
+// let result = email.slice(4, 9)
+// let result = email.substring(4,10);
+let result = email.replace("m", "w");
+console.log(result);
 
-console.log(email)
 
-let firstName = "Kek";
-let lastName = "Abe";
-let fullName = firstName + " " + lastName
-
-console.log(fullName)
-console.log(fullName[0])
-console.log(fullName.length)
-console.log(fullName.toUpperCase())
-let result = fullName.toLowerCase()
-console.log(result)
-
-let index = email.indexOf("@");
-console.log(index)

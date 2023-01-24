@@ -1,9 +1,11 @@
-let email = "michael.k.abe@gmail.com";
+//Numbers 
+let radius = 10; 
+const pi = 3.14;
 
-// let result = email.lastIndexOf("m");
-// let result = email.slice(4, 9)
-// let result = email.substring(4,10);
-let result = email.replace("m", "w");
-console.log(result);
+console.log(radius, pi)
 
+let likes = 10; 
 
+likes++
+likes*=2
+console.log(likes)

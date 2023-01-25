@@ -1,11 +1,18 @@
-//Numbers 
-let radius = 10; 
-const pi = 3.14;
+// const names = ['Kek', 'Jiggz', 'Tonka', 'Yeti'];
+// const age = 25;
 
-console.log(radius, pi)
+// if(age > 20){
+//     console.log('You are over 20 years old');
+// }
 
-let likes = 10; 
+// if(names.length > 3){
+//     console.log("That's a straight up squad");
+// }
 
-likes++
-likes*=2
-console.log(likes)
+const password = "passwo";
+
+if(password.length >= 8){
+    console.log("That password is long enough")
+} else {
+    console.log("That passowrd is weak AFs")
+}
